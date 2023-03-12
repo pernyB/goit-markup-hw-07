@@ -1,0 +1,93 @@
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .solutions {
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/image-background.jpg");
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+      max-width: 768px;
+  }
+
+  .mobile-menu-block {
+    display: none;
+  }
+
+  .mail-n-number-list {
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .mail-n-number-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+
+  .icon-features {
+    display: none;
+  }
+
+  .features-list {
+    flex-wrap: wrap;
+    justify-content: space-between;;
+    gap: 72px;
+  }
+
+  .features-item {
+    margin: 0;
+  }
+
+  .features-head-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .features-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 330px;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .team-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 64px;
+  }
+
+  .customers-list {
+    gap: 24px;
+    row-gap: 72px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .epilogue {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    row-gap: 72px;
+  }
+
+  .footer-social-media, 
+  .subscription {
+    margin: 0;
+  }
+
+  .subscription {
+    width: 475px;
+  }
+}
