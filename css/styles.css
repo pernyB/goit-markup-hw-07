@@ -877,12 +877,15 @@ header {
 /*Adaptive*/
 
 .hamburger {
-  width: 35px;
-  height: 25px;
+  width: 32px;
+  height: 22px;
+  background: transparent;
+  stroke: #2E2F42;
 }
 
 .mobile-header-block {
   display: flex;
+  justify-content: space-between;
   margin: 0;
 }
 
@@ -900,12 +903,12 @@ header {
 
 .menu-open {
   display: block;
-  margin-left: auto;
   background-color: #FFFFFF;
   border: none;
   width: 32px;
   height: 22px;
-  
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mob-menu.is-hidden {
