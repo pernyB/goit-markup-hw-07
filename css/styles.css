@@ -886,7 +886,7 @@ header {
 .mobile-header-block {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+
 }
 
 .mob-menu {
@@ -917,7 +917,7 @@ header {
 }
 
 .mob-menu > .container {
-  height: 80%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -951,9 +951,8 @@ header {
   color: #2E2F42;
   }
 
-.mobile-mail-n-number-item:not(:last-child) {
+.mobile-mail-n-number-item {
   padding-bottom: 40px;
-  
 }
 
 .mobile-mail-n-number-link-current {

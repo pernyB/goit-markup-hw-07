@@ -12,9 +12,25 @@
       max-width: 320px;
   }
 
+  .upper-logo {
+    margin: 0;
+  }
+
   .navigation,
   .mail-n-number {
     display: none;
+  }
+
+  .mobile-mail-n-number-link-current {
+    font-size: 27px;
+  }
+
+  .mobile-header-block {
+    padding: 0px 15px;
+  }
+
+  .test {
+    width: 290px;
   }
 
   .large-text {
@@ -38,15 +54,16 @@
 
   .features-head-text {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
   }
 
   .features-text {
+    width: 300px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 11px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding-left: 16px;
@@ -72,9 +89,17 @@
   }
 
   .customers-list {
-    flex-direction: column;
-    align-items: center;
-    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .customers-item {
+    width: 140px;
+  }
+
+  .customers-icons {
+    margin: 16px 17.5px;
   }
 
   .epilogue {
@@ -122,9 +147,9 @@
   }
 }
 
-@media screen and (min-width: 479px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
   .container {
-    max-width: 479px;
+    max-width: 480px;
   }
 
   .mob-menu {
@@ -135,11 +160,16 @@
     margin-top: 32px;
   }
 
+  .mobile-mail-n-number-link-current {
+    font-size: 36px;
+  }
+
   .features-item {
     margin: 0;
   }
 
   .features-text {
+    font-size: 16px;
     width: 420px;
     height: 48px;
     margin: 0 auto;
